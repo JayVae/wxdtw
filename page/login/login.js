@@ -12,7 +12,7 @@ Page({
     data: {},
     onLoad: function(n) {
         e.showShareMenu(), console.log("login onLoad : ", n);
-        var t = "知乎答题王";
+        var t = "答题王";
         if (i.RunMode != i.RunModeType.Prod && (t += i.RunMode), wx.setNavigationBarTitle({
             title: t
         }), this.options = JSON.parse(JSON.stringify(n)), l.mainData.loginArgs.friendCode = n.friendCode, 
